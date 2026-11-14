@@ -8,7 +8,7 @@
 
 隐私方面，所有的站点选择及查询请求，均直接由用户的浏览器发送至上海地铁官方接口，我们无法查看你的任何信息，但是上海地铁可能会使用或存储你的信息。使用我们的服务即代表你已经知情且你愿意向 https://service.shmetro.com/cphc/index.htm 输入信息。
 
----
+
 
 ## 使用指南
 
@@ -34,7 +34,7 @@
 - Material Design 3. 基于 `@material/web` 官方 Web Components，提供优秀交互体验。避免”AI 设计“。
 - 零依赖构建：纯原生 HTML/CSS/JS 实现，无需 Node.js 或任何打包工具。及其轻量化。
 
----
+
 
 ## 本地运行和部署
 
@@ -50,7 +50,7 @@
 2. 进入仓库的 Settings > Pages 并进行设置。
 3. 您的应用即可通过 `https://<your-username>.github.io/<repository-name>/` 访问。
 
----
+
 
 ## 逻辑
 
@@ -58,7 +58,7 @@
 - 搜索逻辑：输入框监听 `input` 事件，通过防抖 (Debounce) 优化性能。若输入为纯数字，则严格匹配线路；若为文本，则匹配站名或线路名。
 - 路径查询：通过 `fetch` 请求上海地铁的路径规划接口，获取结果后，复用官方提供的 `planTrip` JS 类进行结果渲染。
 
----
+
 
 ## 贡献
 
@@ -70,19 +70,19 @@
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启一个 Pull Request
 
----
+
 
 ## 开源协议
 
 本项目基于 [MIT License](LICENSE) 开源。
 
----
+
 
 ## 致谢
 
 - 感谢 上海地铁 提供公开的查询服务与静态资源。
 - 感谢 Google 提供的 [Material Web Components](https://github.com/material-components/material-web) 开源库。
 
----
+
 
 由 Zhang Dangshu 用 ❤️ 制作
