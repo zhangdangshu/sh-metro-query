@@ -40,7 +40,7 @@
 
 由于本项目是纯静态单页面应用，您可以直接通过以下方式运行：
 
-1. 克隆或下载本仓库。
+1. 克隆或下载本仓库。你可以直接下载文件中的 [index.html](https://github.com/zhangdangshu/sh-metro-query/blob/main/index.html)
 2. 直接在浏览器中双击打开 `index.html` 文件。
 3. 提示：使用 VS Code 的 [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 插件以获得最佳的开发体验。
 
